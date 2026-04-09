@@ -1,10 +1,10 @@
-# 🎧 Audio Spectrum Analyzer (Tempo Real)
+# 🎧 Audio Spectrum Analyzer
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Python-3.10+-blue?logo=python">(#-estrutura-do-projeto)
-  <img src="https://img.shields.io/badge/OS-Linux%20%7C%20Windows-green">(#-estrutura-do-projeto)
-  <img src="https://img.shields.io/badge/Status-Ativo-success">(#-estrutura-do-projeto)
-  <img src="https://img.shields.io/badge/License-MIT-yellow">(#-estrutura-do-projeto)
+  <img src="https://img.shields.io/badge/Python-3.10+-blue?logo=python">
+  <img src="https://img.shields.io/badge/OS-Linux%20%7C%20Windows-green">
+  <img src="https://img.shields.io/badge/Status-Ativo-success">
+  <img src="https://img.shields.io/badge/License-MIT-yellow">
 </p>
 
 ---
