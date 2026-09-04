@@ -3,54 +3,44 @@
 <p align="center">
   <img src="https://img.shields.io/badge/Python-3.10+-blue?logo=python">
   <img src="https://img.shields.io/badge/OS-Linux%20%7C%20Windows-green">
-  <img src="https://img.shields.io/badge/Status-Ativo-success">
+  <img src="https://img.shields.io/badge/Status-Active-success">
   <img src="https://img.shields.io/badge/License-MIT-yellow">
 </p>
 
 ---
 
-## 📌 Sobre o Projeto
+## 📌 About the Project
 
-Este projeto realiza a **análise de áudio em tempo real** utilizando a Transformada de Fourier (FFT), exibindo:
+This project performs **real-time audio analysis** using the Fourier Transform (FFT), displaying:
 
-- 📈 Sinal no domínio do tempo  
-- 📊 Espectro de frequências  
-- 🎼 Frequência dominante + nota musical  
-
----
-
-## 📄 Artigo
-
-O artigo completo deste projeto pode ser acessado aqui:
-
-👉 [📥 Baixar artigo (PDF)](docs/artigo.pdf)
+- 📈 Time-domain signal
+- 📊 Frequency spectrum
+- 🎼 Dominant frequency + musical note
 
 ---
 
-## 🚀 Navegação Rápida
+## 🚀 Quick Navigation
 
-- [📂 Estrutura](#-estrutura-do-projeto)
-- [⚙️ Instalação (Arch Linux)](#️-arch-linux)
-- [🪟 Instalação (Windows)](#-windows)
-- [▶️ Execução](#️-execução)
-- [🖱️ Como usar](#️-como-usar)
-- [🧠 Funcionamento](#-funcionamento)
-- [📚 Base Teórica](#-base-teórica)
-- [❗ Problemas comuns](#-problemas-comuns)
+- [📂 Structure](#-project-structure)
+- [⚙️ Installation (Arch Linux)](#️-arch-linux)
+- [🪟 Installation (Windows)](#-windows)
+- [▶️ Running](#️-running)
+- [🖱️ How to Use](#️-how-to-use)
+- [🧠 How It Works](#-how-it-works)
+- [📚 Theoretical Background](#-theoretical-background)
+- [❗ Common Issues](#-common-issues)
 
 ---
 
-## 📂 Estrutura do Projeto
+## 📂 Project Structure
 
 ```
-projeto/
+project/
 │
 ├── spectrum_analyzer.py
 ├── requirements.txt
 ├── README.md
 ├── LICENSE
-└── docs/
-    └── artigo.pdf
 ```
 
 ---
@@ -61,7 +51,7 @@ projeto/
 sudo pacman -S python python-pip portaudio
 ```
 
-Opcional:
+Optional:
 
 ```bash
 sudo pacman -S python-pyqt6
@@ -77,8 +67,8 @@ pip install -r requirements.txt
 
 ## 🪟 Windows
 
-1. Instale Python: https://www.python.org/downloads/  
-2. Marque **Add Python to PATH**
+1. Install Python: https://www.python.org/downloads/
+2. Check **Add Python to PATH**
 
 ```bash
 python -m venv venv
@@ -88,7 +78,7 @@ pip install -r requirements.txt
 
 ---
 
-## ▶️ Execução
+## ▶️ Running
 
 ```bash
 python spectrum_analyzer.py
@@ -96,40 +86,40 @@ python spectrum_analyzer.py
 
 ---
 
-## 🖱️ Como usar
+## 🖱️ How to Use
 
-| Ação        | Como fazer |
+| Action      | How to do it |
 |------------|-----------|
-| 🔍 Zoom     | Botão de lupa + arrastar |
-| ✋ Pan      | Arrastar gráfico |
-| 🔄 Reset    | Botão Home |
+| 🔍 Zoom     | Magnifying glass button + drag |
+| ✋ Pan      | Drag the graph |
+| 🔄 Reset    | Home button |
 
 ---
 
-## 🧠 Funcionamento
+## 🧠 How It Works
 
-O sistema:
+The system:
 
-1. Captura áudio do microfone  
-2. Aplica Transformada de Fourier (FFT)  
-3. Calcula o espectro de frequências  
-4. Detecta a frequência dominante  
-
----
-
-## 📚 Base Teórica
-
-Este projeto foi desenvolvido com base nos conceitos de:
-
-- Transformada de Fourier  
-- Processamento Digital de Sinais  
-- Análise espectral de áudio  
-
-Os detalhes completos estão descritos no artigo incluído neste repositório.
+1. Captures audio from the microphone
+2. Applies the Fourier Transform (FFT)
+3. Calculates the frequency spectrum
+4. Detects the dominant frequency
 
 ---
 
-## ❗ Problemas comuns
+## 📚 Theoretical Background
+
+This project was developed based on the concepts of:
+
+- Fourier Transform
+- Digital Signal Processing
+- Audio spectral analysis
+
+Full details are described in the paper included in this repository.
+
+---
+
+## ❗ Common Issues
 
 ```bash
 sudo pacman -S portaudio
@@ -137,13 +127,13 @@ sudo pacman -S portaudio
 
 ---
 
-## 👨‍💻 Autor
+## 👨‍💻 Author
 
-David Marcelo Gois  
+David Marcelo Gois
 GitHub: https://github.com/Severas
 
 ---
 
-## 📄 Licença
+## 📄 License
 
-Este projeto está sob a licença MIT.
+This project is licensed under the MIT License.
